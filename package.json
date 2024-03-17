@@ -7,7 +7,11 @@
     "doc": "docs"
   },
   "scripts": {
-    "start": "node src/serviceaccount/index.js",
+    "add-schedule": "node src/serviceaccountV2/addSchedule.js",
+    "create": "node src/serviceaccountV2/createCalender.js",
+    "list": "node src/serviceaccountV2/listCalender.js",
+    "delete": "node src/serviceaccountV2/deleteCalender.js",
+    "add-member": "node src/serviceaccountV2/inviteCalender.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
