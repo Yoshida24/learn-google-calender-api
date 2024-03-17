@@ -35,7 +35,7 @@ jwtClient.authorize((err, tokens) => {
         },
         attendees: [
             {
-                email: 'trihead1.dev@gmail.com'
+                email: 'inviteしたいユーザー@gmail.com'
             }
         ]
     };
